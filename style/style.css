@@ -1,3 +1,93 @@
+:root {
+  --Orange-500: hsl(25, 97%, 53%);
+  --White: hsl(0, 100%, 100%);
+  --Grey: hsl(213, 18%, 22%);
+  --Grey-500: hsl(217, 12%, 63%);
+  --Grey-900: hsl(213, 19%, 18%);
+  --Grey-950: hsl(216, 12%, 8%);
+  --footer: hsl(228, 45%, 44%);
+}
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--Grey-950);
+  color: var(--White);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.rating-container {
+  width: 275px;
+  height: auto;
+  background-color: var(--Grey-900);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.image-container {
+  width: 30px;
+  height: 30px;
+  background-color: var(--Grey);
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+.image-container img {
+  width: 10px;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 12px;
+  color: var(--Grey-500);
+}
+
+.buttons {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons .rating-btn {
+  font-size: 12px;
+  font-weight: 700;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--Grey);
+  background-color: var(--Grey);
+  color: var(--Grey-500);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: var(--Orange-500);
+  color: var(--Grey-950);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.message-section {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
