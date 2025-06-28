@@ -31,11 +31,15 @@
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--Grey-950);
-  color: var(--White);
   font-family: "Overpass", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  color: var(--White);
+  padding: 1rem;
 }
 
 .main-container {
@@ -137,5 +141,45 @@ p {
 
   h3 {
     margin: 1rem 0;
+  }
+}
+
+// Media Query for Bigger Screen
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+  }
+
+  .rating-container,
+  .message-section {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .rating-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 1rem;
+  }
+
+  .selected-rating {
+    font-size: 14px;
   }
 }
