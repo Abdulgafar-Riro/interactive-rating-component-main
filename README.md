@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Githup](https://github.com/Abdulgafar-Riro/interactive-rating-component-main)
+- Live Site URL: [Netlify](https://webmujahid-interactive-rating.netlify.app/)
 
 ## My process
 
